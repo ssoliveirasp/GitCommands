@@ -32,6 +32,17 @@
   
   #Add\Remove File
 
-  git add DeleteFile.js
-  git rm DeleteFile.js          #Apaga do Repositorio e Localmente
-  git rm --cached DeleteFile.js #Apaga somente do Repositório
+    #Add/Remove File
+    git add DeleteFile.js
+    git rm  DeleteFile.js         #Apaga do Repositorio e Localmente
+    git rm --cached DeleteFile.js #Apaga somente do Repositório
+
+    #Add/Remove specific file in Directory
+    git add log\*.log
+    git rm --cached logs\*.log
+
+    #Add\Remove Directory
+    git add logs
+    git commit -m "Remove Diretorio"
+    git rm --cached -r  logs #-r (recursively) é utilizado para indicar que é um diretorio
+    git push
