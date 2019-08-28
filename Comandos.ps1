@@ -30,3 +30,8 @@
   #Publica no repositorio online
   git push
   
+  #Add\Remove File
+
+  git add DeleteFile.js
+  git rm DeleteFile.js          #Apaga do Repositorio e Localmente
+  git rm --cached DeleteFile.js #Apaga somente do Repositório
