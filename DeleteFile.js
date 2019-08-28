@@ -1,1 +1,0 @@
-Serei deletado
