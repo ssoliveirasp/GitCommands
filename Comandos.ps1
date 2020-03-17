@@ -23,6 +23,7 @@
   git status -s
 
 # Files Actions
+
   #Add Arquivos
    git add Comandos.txt
   #Rename Files
@@ -44,6 +45,9 @@
     git add log\*.log
     git rm --cached logs\*.log
 
+    #Add todos os arquivos de um diretorio
+    git add *
+ 
     #Add\Remove Directory
     git add logs
     git commit -m "Remove Diretorio"
