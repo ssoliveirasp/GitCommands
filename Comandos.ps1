@@ -91,3 +91,6 @@ git commit --amend or git commit --amend -m "Fixes bug #42"
 
 #Undo checkout
 git reset --hard
+
+#Git Revert - If you have already committed files but realised you made a mistake then the command 
+git revert
