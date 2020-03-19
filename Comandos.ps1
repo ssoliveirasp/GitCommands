@@ -89,3 +89,5 @@ git commit -m "File Renamed s.mf to FileRename.md"
 #Fix the last commit message
 git commit --amend or git commit --amend -m "Fixes bug #42"
 
+#Undo checkout
+git reset --hard
