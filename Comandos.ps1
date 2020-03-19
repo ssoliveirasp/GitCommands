@@ -90,7 +90,7 @@ git commit -m "File Renamed s.mf to FileRename.md"
 git commit --amend or git commit --amend -m "Fixes bug #42"
 
 #Undo checkout
-git checkout -q
+git checkout -q --Arquivo.txt
 
 git reset --hard
 
