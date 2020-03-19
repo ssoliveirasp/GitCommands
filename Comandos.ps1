@@ -90,6 +90,8 @@ git commit -m "File Renamed s.mf to FileRename.md"
 git commit --amend or git commit --amend -m "Fixes bug #42"
 
 #Undo checkout
+git checkout -q
+
 git reset --hard
 
 #Git Revert - If you have already committed files but realised you made a mistake then the command 
@@ -97,3 +99,4 @@ git revert HEAD~1
 
 #quick overview of the commit history
 git log --oneline
+
