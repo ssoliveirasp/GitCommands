@@ -86,6 +86,10 @@ git commit -m "File Renamed s.mf to FileRename.md"
   git log --pretty="%h - %s" --author='Junio C Hamano' 
           --since="2008-10-01" \ --before="2008-11-01" --no-merges -- t/
 
+#Branch
+git branch newBranch
+git checkout newBranch //acesso novo branch
+
 #Fix the last commit message
 git commit --amend or git commit --amend -m "Fixes bug #42"
 
