@@ -94,3 +94,6 @@ git reset --hard
 
 #Git Revert - If you have already committed files but realised you made a mistake then the command 
 git revert HEAD~1
+
+#quick overview of the commit history
+git log --oneline
