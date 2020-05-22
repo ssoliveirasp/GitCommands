@@ -34,6 +34,9 @@
   #Publica no repositorio online
   git push
   
+  # atualizar seu repositório local com a mais nova versão
+  git pull
+  
   #Add\Remove File
 
     #Add/Remove File
@@ -88,7 +91,13 @@ git commit -m "File Renamed s.mf to FileRename.md"
 
 #Branch
 git branch newBranch
-git checkout newBranch //acesso novo branch
+git checkout newBranch    //acesso novo branch
+git branch -d newBranch   //remova o branch da seguinte forma
+git push origin newBranch //envia o branch para seu repositório remoto
+
+#Merge
+git diff <branch origem> <branch destino> //fazer o merge das alterações, você pode também pré-visualizá-as usando
+git merge <branch>                        //merge de um outro branch ao seu branch ativo (ex. master), use
 
 #Fix the last commit message
 git commit --amend or git commit --amend -m "Fixes bug #42"
