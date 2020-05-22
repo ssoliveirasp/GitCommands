@@ -87,6 +87,13 @@ git reset --hard
 //Git Revert - If you have already committed files but realised you made a mistake then the command 
 git revert HEAD~1
 
+//você pode sobrescrever as alterações locais
+git checkout -- <arquivo>
+
+remover todas as alterações e commits locais, recupere o histórico mais recente do servidor e aponte para seu branch master
+git fetch origin
+git reset --hard origin/master
+
 *****************************************************
 * Atualização e Publicação 
 *****************************************************
