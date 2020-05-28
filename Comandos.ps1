@@ -23,12 +23,20 @@ git rm  DeleteFile.js         #Apaga do Repositorio e Localmente
 git rm --cached DeleteFile.js #Apaga somente do Repositório
 
 
-#Rename File / Moving Files
+//Rename File / Moving Files
 git mv s.md FileRename.md
 git commit -m "File Renamed s.mf to FileRename.md"
 
 //Add specific file in Directory
 git add log\*.log
+
+//Excluir Arquivos Não monitorados
+git clean -ffdx
+-n  exibir os arquivos a serem excluídos sem de fato os excluir. 
+-f  início de fato à exclusão de arquivos não monitorados do diretório atual
+-d  informa ao git clean que você também quer excluir quaisquer diretórios não monitorados
+-x  diz ao git clean para incluir também quaisquer arquivos ignorados
+-i  modo interativo
 
 *****************************************************
 * Directory Actions
