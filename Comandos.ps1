@@ -162,3 +162,14 @@ git log --oneline
  git config --list --show-origin
  git config user.name John Doe
 
+*****************************************************
+* Rastreando Commit
+*****************************************************
+
+git cat-file -p 4ff681db0f25440804d76a6dee8808688989172e //Hash do commit
+    // tree d9baffe2863807437000a9b81718202de0d1a544 //retorno
+git cat-file -p d9baffe2863807437000a9b81718202de0d1a544 //Hash da Tree
+    //100644 blob 0ca446aab9d09eac8625b53e3df8da661976c458    README.md
+    //100644 blob 4ba2715c29418a360680c2e8b22bc8be2a86eb3e    RouterTable.Service.sln
+git cat-file -p 4ba2715c29418a360680c2e8b22bc8be2a86eb3e
+   // Retorna o conteudo do arquivo
