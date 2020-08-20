@@ -173,3 +173,9 @@ git cat-file -p 78baffe2863807437000a9b81718202de0d1a544 //Hash da Tree
     //100644 blob 4ba2715c29418a360680c2e8b22bc8be2a86eb3e    RouterTable.Service.sln
 git cat-file -p 4ba2715c29418a360680c2e8b22bc8be2a86eb3e
    // Retorna o conteudo do arquivo
+
+*****************************************************
+* Rastreando Alteração por Linha
+*****************************************************
+
+git blame -L 1,5 README.md
