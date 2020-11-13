@@ -162,6 +162,8 @@ git log --oneline
  git config --list --show-origin
  git config user.name John Doe
 
+## Trabalhar com arquivos com caminho longo
+git config --system core.longpaths true
 *****************************************************
 * Rastreando Commit
 *****************************************************
